@@ -1,7 +1,19 @@
-
-.content{
-    background-color: bisque;
+a:link{
+    color: brown;
 }
-.newclass{
-    color:seagreen;
+a:visited{
+    color:palevioletred;
+}
+a:hover{
+    color: darkgreen;
+}
+a:active{
+    color:dodgerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
