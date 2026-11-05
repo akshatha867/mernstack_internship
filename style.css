@@ -17,3 +17,11 @@ table,th,td{
     border: 1px solid black;
     border-collapse: collapse;
 }
+.greeting{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#id-example{
+    color:bisque;
+    font-size: 25px;
+}
