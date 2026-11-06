@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: navy;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.content {
+    display: inline-block;
+    width: 45%;
+    margin: 50px;
+}
+
+.image {
+    display: inline-block;
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+}
