@@ -1,0 +1,183 @@
+let a=10;
+console.log(a);
+a=50;
+var b=20;
+b=30;
+const pie=3.14
+console.log(a)
+console.log(b)
+console.log(pie)
+
+// defining data types
+let str="This is text";
+str="Hello";
+let price=99.52;
+price=85.23;
+let isPrime=true;
+isPrime=false;
+let num=10;
+num=85;
+let name=null;
+name=10;
+let notFound=undefined;
+notFound="found"
+
+let und;
+console.log(und);
+
+console.log("This is string:",str);
+console.log("This is float:",price);
+console.log("This is boolean:",isPrime);
+console.log("This is number:",num);
+console.log("This is null:",name);
+console.log("This is undefined:",notFound);
+
+// arithmetic operators
+let num1=10;
+let num2=20;
+
+let firstName="Akshatha";
+let lastName="G";
+let fullName=firstName+ " " +lastName;
+console.log(fullName);
+
+console.log("10"+num1);
+
+console.log(num1+num2);
+console.log(num1-num2);
+console.log(num1*num2);
+console.log(num1/num2);
+console.log(num1%num2);
+
+// comparison operators
+let number1=10;
+let number2="10";
+
+if(number1>number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1<number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1>=number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1<=number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1==number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1===number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1!=number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+if(number1!==number2){
+    text="true";
+}else{
+    text="false";
+}
+console.log(text);
+
+let email;
+if(!email){
+    console.log("required");
+    
+}
+
+//ternary operator
+let result=!email?"Error":"Success";
+console.log(result);
+
+let d=10;
+let e=30;
+d>e?console.log("true"):console.log("false");
+
+// Logical Operators
+let mail="akse@gmail.com";
+let password="rdbcbd";
+
+if(!mail && !password){
+    console.log("Please fill fields");
+}else{
+    console.log("it is success");
+    
+}
+if(!mail || !password){
+    console.log("Please fill fields");
+}else{
+    console.log("it is success");
+    
+}
+
+// array
+let numbers=[10,20,30,40];
+for(let i=0;i<numbers.length;i++){
+    console.log(numbers[i]);
+}
+
+let fruits=["mango","kiwi","apple"];
+let element;
+for(let i=0;i<fruits.length;i++){
+    element=fruits[i];
+    console.log(element);
+}
+
+//array methods join
+let seasons=["summer","winter","rainy"];
+console.log("Before join method",seasons);
+let joinMethod=seasons.join("|");
+console.log("After join method",joinMethod);
+
+//pop method
+let numeric=[10,20,30,40];
+console.log("Before pop",numeric);
+console.log("Removed item is",numeric.pop());
+console.log("Array after pop",numeric);
+
+let items=["phone","laptop","watch"];
+console.log("Before pop",items);
+console.log("Removed item is",items.pop());
+console.log("Array after pop",items);
+
+//push method
+console.log("Before push",items);
+console.log("Added item is",items.push("Airpods"));
+console.log("After push",items)
+
+
+
+
+
+
+
