@@ -1,33 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-       .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} 
+    <title>Haven Coffee</title>
 
-nav {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
+    <style>
+        body {
+            background-color: bisque;
+            margin: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Hero section */
+        .content {
+            background-color: burlywood;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero_text {
+            width: 50%;
+        }
+
+        .content img {
+            width: 40%;
+        }
+
+        button {
+            background-color: brown;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+
+        /* Menu section */
+        .menu {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: burlywood;
+            padding: 15px;
+            width: 200px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
     </style>
 </head>
+
 <body>
+
     <header class="header">
-    <h1>Haven</h1>
-    <nav class="link">
-        <a href="#">About</a>
-         <a href="#">Specialties</a>
-          <a href="#">What to expect</a>
-           <a href="#">Bonus Pages</a>
-           <button>Schedule a free consultation</button>
-    </nav>
+        <h1>Haven</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
+
+    <div class="content">
+
+        <div class="hero_text">
+            <h1>A little coffee, a lot of happiness</h1>
+            <p>Your daily dose of warmth and happiness.</p>
+            <button>Explore Menu</button>
+        </div>
+
+        <img src="assets/coffee.jpeg" alt="Coffee">
+
+    </div>
+
+    <div class="menu">
+
+        <h1>Our Specialties</h1>
+        <p>Made fresh, served with love.</p>
+
+        <div class="products">
+
+            <div class="card">
+                <img src="assets/coffee_menu.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Price: Rs.120</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/brownie.jpeg" alt="Brownie">
+                <h3>Brownie with Ice Cream</h3>
+                <p>Price: Rs.100</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Haven Coffee. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
