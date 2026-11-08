@@ -8,15 +8,25 @@
 <body>
     <h1 id="header"></h1>
     <p id="para"></p>
+    <button onclick="greet(`rita`)">Greet</button>
+    <button onclick="add(3,5)">Click for addition</button>
+
     <script>
-        let good="Good";
-        let mrng="Morning";
-        let full=good+" "+mrng;
-        let num1=20;
-        let num2=30;
-        document.getElementById("para").innerHTML=full;
-         document.getElementById("header").innerHTML=full;
-         document.getElementById("header").innerHTML=num1+num2;
+        // let good="Good";
+        // let mrng="Morning";
+        // let full=good+" "+mrng;
+        // let num1=20;
+        // let num2=30;
+        // document.getElementById("para").innerHTML=full;
+        //  document.getElementById("header").innerHTML=full;
+        //  document.getElementById("header").innerHTML=num1+num2;
+        function greet(name){
+             document.getElementById("header").innerHTML="hello"+" "+name;
+        }
+        let add=(a,b)=>{
+            document.getElementById("header").innerHTML=a+b;
+        }
+        
 
     </script>
     <!-- <script src="main.js"></script> -->

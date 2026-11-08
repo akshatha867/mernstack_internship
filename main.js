@@ -175,6 +175,101 @@ console.log("Before push",items);
 console.log("Added item is",items.push("Airpods"));
 console.log("After push",items)
 
+// object
+let person={
+    name:"riya",
+    age:20,
+    address:"moodbidri",
+    skills:["java","javascript","php"],
+    gender:"female",
+    grade:9.4
+};
+console.log(person);
+console.log(person.gender,person.age);
+console.log(person.skills);
+console.log(person.skills[2]);
+
+// date funtion
+let date=new Date();
+console.log(date);
+const specific=new Date(2026, 5 ,15,10,30,0);
+console.log(specific);
+
+// functions
+//function without params and argument
+function sum(){
+    let a=10;
+    let b=20;
+    console.log(a+b);
+}
+sum();
+//function with params and argument
+function subtract(a,b){
+    console.log(a-b);
+}
+subtract(40,20);
+
+//function with params and without argument
+function multiply(a=10,b=20){
+    console.log(a*b);
+}
+multiply();
+
+//array function
+let multiplication=(x,y)=>{
+    console.log(x*y);
+}
+multiplication(2,3);
+
+let div=(m,n)=>{
+    console.log(m/n);
+}
+div(10,5);
+
+//switch
+// let day="sunday";
+switch(new Date().getDay()){
+    case "Monday":
+        console.log("It's monday");
+         break;
+    case "Tuesday":
+        console.log("It's tuesday");
+        break;
+    case "Wednesday":
+        console.log("It's wednesday");
+        break;
+    case 6:
+        console.log("It's saturday");
+        break;
+    default:
+        console.log("It's not any day");
+}
+
+//String methods
+let string="Hello World";
+console.log("Before replace:",string);
+
+let replaced=string.replace("World","John");
+console.log("After replaced:",replaced);
+
+let slice=string.slice(0,2);
+console.log("Slice:",slice);
+
+let search=string.search("World");
+console.log(search);
+
+let split=string.split("Hello");
+console.log("Split:",split);
+
+
+
+
+
+
+
+
+
+
 
 
 
