@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form onsubmit="login(event)" >
+        <h1>Login Form</h1>
+        <label>Enter your username</label><br>
+        <input type="text" id="username" value="" placeholder="Enter your username" required><br>
+        <label>Enter password</label><br>
+        <input type="password"  id="password"  value="" placeholder="Enter your password" required><br>
+        <input type="submit" value="Login ">
+        
+    </form>
+    <p id="message"></p>
+    <script>
+        function login(e){
+            e.preventDefault();
+            let uname=document.getElementById("username").value;
+            let password=document.getElementById("password").value;
+            if(uname=="akshatha" && password=="aks123"){
+                alert("Login successful") 
+            }else{
+                alert("Login failed")
+            }
+
+        }
+    </script>
+</body>
+</html>
