@@ -261,7 +261,60 @@ console.log(search);
 let split=string.split("Hello");
 console.log("Split:",split);
 
+//try and catch block
+try{
+    console.logs();
+}catch(error){
+    console.log("Something is wrong",error)
+} 
 
+//map function
+const myarray=["kiwi","orange","mango"];
+myarray.map((items)=>{
+    console.log(items);
+    
+})
+
+//destructuring
+
+let nums=[1,2,3,4,5];
+let[one,two,three,four,seven=7]=nums;
+console.log(one);
+let[...rest]=nums;
+console.log(...rest);
+
+
+const individuals={names:"akshatha",age:21,degree:"BCA"};
+const{names,age,degree,role="sde"}=individuals;
+console.log(age,role);
+
+
+//...operator
+let numOne=[1,2,3];
+let numTwo=[4,5,6];
+let combined=[...numOne,...numTwo];
+console.log(combined);
+
+let items2={
+    name:"airpods",
+    model:"boat"
+};
+let car={
+    type:"ford",
+    year:2011
+
+};
+
+console.log({...items2,...car});
+console.log([...numOne,...numTwo]);
+
+
+
+
+
+
+
+ 
 
 
 
